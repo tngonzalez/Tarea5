@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+
+form 
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: Yanone Kaffeesatz; 
+
+}
+form input 
+{
+    font-size: 20px;
+    font-style: italic;
+}

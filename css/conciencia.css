@@ -1,0 +1,18 @@
+main #imagen1
+{
+    margin: 10px 300px;
+}
+main h3
+{
+    font-size: 17px;
+    color: black;
+    margin: 10px 20px;
+
+}
+main p 
+{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 10px 20px;
+}

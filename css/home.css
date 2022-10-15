@@ -1,0 +1,193 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+main
+{
+  width: 100%;
+}
+header img 
+{
+  width: 100%;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container 
+{  
+  background: transparent url(../images/grass.png) repeat-x bottom;
+
+}
+#container #main
+{
+  background-color: white;
+  margin: -160px 550px;
+  height: 100%;
+  padding: 15px;
+border-radius: 7px;
+}
+#nav .menu 
+{
+background-color: #53C7FD;
+height: 35px;
+font-family: Yanone Kaffeesatz; 
+font-size: 20px;
+padding:10px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+
+}
+.menu a 
+{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding:10px;
+}
+.menu a:hover
+{
+  color: #E5017D;
+}
+
+/* Dropdown part */
+.dropdown 
+{
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content
+{
+  display: none;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+.dropdown-content a:hover
+{
+  color: #E5017D;
+  
+}
+/*Footer*/
+footer
+{
+  background-color: #53C7FD;
+  text-decoration: none;
+
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+ }
+footer .footermenu
+{
+  margin: 0 300px;
+  background-color: #53C7FD;
+  height: 50px;
+  text-align: center;
+
+}
+footer .menudatos
+{
+  padding: 30px 0 0 0;
+}
+footer .menudatos a
+{
+  padding: 0 5px;
+  font-family: Yanone Kaffeesatz; 
+  font-size: 20px;
+  color: #fff;
+  border-right: 1px solid #fff;
+
+}
+footer .menudatos .last
+{
+  border-right: 0;
+}
+
+footer .menutitulo 
+{
+  padding: 0 0 0 0;
+  font-family: Yanone Kaffeesatz; 
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Ol */
+ol 
+{
+  margin: 10px 20px;
+}
+#imagen
+{
+position: relative;
+float: right;
+top: -470px;
+right: 300px;
+
+border: 9px solid lightgray; 
+}
+#datosp 
+{
+  line-height: 1.5;
+  font-size: 15px;
+}
+#datosp p
+{
+	text-align: left;
+	position: relative;
+	margin: 10px 500px 10px 10px;
+	line-height: 1.6;
+}
+
+.informativo
+{
+  float: right;
+
+}
+
+/*Lista automatia de los nombres*/
+marquee
+{
+  width:190px;
+  height:40px; 
+  background-color: #F5FEFF;
+  margin: 10px 15px;
+  border-radius: 7px;
+  font-size: 15px;
+  text-align: center;
+}
+.informativo aside 
+{
+background-color: #F5FEFF;
+border: 3px solid #c9e5e9;
+border-radius: 7px;
+margin: 10px 0px;
+padding: 10px 0; 
+height: 130px;
+text-align: center;
+}
+
+
+

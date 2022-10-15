@@ -1,0 +1,17 @@
+article 
+{
+    background-color: #F5FEFF;
+    border: 3px solid gray;
+    margin: 10px;
+    text-align: center;
+}
+main h1 
+{
+  color: #E5017D;
+  font-size: 20px;
+  margin: 10px 15px;
+}
+main p
+{
+    text-align: justify;
+}

@@ -1,0 +1,49 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+
+table,td,th
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+  table caption
+  {
+    height: 40px;
+    background-color: #53C7FD;
+    font-family: Yanone Kaffeesatz; 
+    font-size: 25px;
+  }
+ 
+  table #fila .filasencabe
+  {
+  background-color: #E5017D;
+  height: 30px;
+  padding: 5px 50px; 
+  text-align: center;
+  font-size: 15px;
+  color: #FFF;
+  }
+
+  table .cuerpo img
+  {
+    width: 100px; 
+  }
+  table .cuerpo 
+  {
+    text-align: center;
+    font-size: 15px;
+  }
+  table .fondo
+  {
+    background-color: powderblue;
+  }
+
+table tfoot
+{
+  background-color: #E5017D;
+  height: 30px;
+
+}
